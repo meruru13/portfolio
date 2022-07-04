@@ -17,15 +17,20 @@
       <div class="container-xxl pt-4 ps-5 pe-5">
         <a class="navbar-brand" href="#">My Portfolio.</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <i class="ms-auto fa-solid fa-bars nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          </i>
-              <ul class="dropdown-menu dropdown-menu-end me-5" aria-labelledby="navbarDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end rounded-3" aria-labelledby="navbarDropdownMenuLink">
                 <li><a class="dropdown-item" href="#">Home</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">About Me</a></li>
+                <li><a class="dropdown-item" href="#">About me</a></li>
                 <li><a class="dropdown-item" href="#">Works</a></li>
-                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="inquiry.html">Reach out</a></li>
               </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -37,9 +42,9 @@
         </div>
         <div class="col-12 col-lg-6">
           <nav class="nav top-links">
-            <a class="nav-link" href="#">All</a>
             <a class="nav-link" href="#design">Design</a>
-            <a class="nav-link pe-0" href="#web">Web</a>
+            <a class="nav-link" href="#web">Web</a>
+            <a class="nav-link pe-0" href="#web">Contact</a>
           </nav>
         </div>
       </div>
@@ -47,76 +52,75 @@
     <div class="container-xxl ps-5 pe-5">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4 work" id="design">
+          <a href="#">
           <div class="description">
-            <a href="#">
             <h4>Work Example</h4>
             <span><small>Design</small></span>
-          </a>
           </div>
-          <div class="img-card">
-          <a href="#"><img class="img-fluid" src="https://picsum.photos/id/1023/500/500"></i></a>
+          <div class="img-card"><img class="img-fluid" src="https://picsum.photos/id/1023/500/500"></i>
           </div>
+        </a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 work">
+          <a href="#">
           <div class="description">
-            <a href="#">
             <h4>Work Example</h4>
             <span><small>Design</small></span>
-          </a>
           </div>
           <div class="img-card">
-          <a href="#"><img class="img-fluid" src="https://picsum.photos/id/1037/500/500"></i></a>
+          <img class="img-fluid" src="https://picsum.photos/id/1037/500/500"></i>
           </div>
+        </a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 work">
+          <a href="#">
           <div class="description">
-            <a href="#">
             <h4>Another Example</h4>
             <span><small>Design</small></span>
-          </a>
           </div>
           <div class="img-card">
-          <a href="#"><img class="img-fluid" src="https://picsum.photos/id/1045/500/500"></i></a>
+          <img class="img-fluid" src="https://picsum.photos/id/1045/500/500"></i>
           </div>
+        </a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 work" id="web">
+          <a href="#">
           <div class="description">
-            <a href="#">
             <h4>Another Example</h4>
             <span><small>Web</small></span>
-          </a>
           </div>
           <div class="img-card">
-          <a href="#"><img class="img-fluid" src="https://picsum.photos/id/1063/500/500"></i></a>
+          <img class="img-fluid" src="https://picsum.photos/id/1063/500/500"></i>
           </div>
+        </a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 work">
+          <a href="#">
           <div class="description">
-            <a href="#">
             <h4>Work Example</h4>
             <span><small>Web</small></span>
-          </a>
           </div>
           <div class="img-card">
-          <a href="#"><img class="img-fluid" src="https://picsum.photos/id/1064/500/500"></i></a>
+          <img class="img-fluid" src="https://picsum.photos/id/1064/500/500"></i>
           </div>
+        </a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 work">
+          <a href="#">
           <div class="description">
-            <a href="#">
             <h4>Work Example</h4>
             <span><small>Web</small></span>
-          </a>
           </div>
           <div class="img-card">
-          <a href="#"><img class="img-fluid" src="https://picsum.photos/id/1078/500/500"></i></a>
+          <img class="img-fluid" src="https://picsum.photos/id/1078/500/500"></i>
           </div>
+        </a>
         </div>
       </div>
     </div>
     <div class="container-xxl ps-5 pe-5 contact">
       <div class="row">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4" id="contact-me">
           <img src="./images/profile.jpg" class="img-fluid profile-pic d-block mx-auto">
         </div>
         <div class="col-12 col-md-8 contact-me">
