@@ -73,7 +73,7 @@ h4 {
   justify-content: center;
 }
 .contact {
-  margin-top: 70px;
+  margin-top: 100px;
   margin-bottom: 70px;
 }
 .sns a {
@@ -102,4 +102,23 @@ h4 {
 }
 .fa-brands {
   margin: 2px;
+}
+.copyright {
+  padding-right: 5em;
+  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-left: 6em;
+}
+.copyright p a {
+  text-decoration: underline;
+  color: gray;
+}
+.copyright p {
+  font-size: 12px;
+  color: gray;
+}
+@media (max-width: 992px) {
+  .copyright {
+    text-align: center;
+  }
 }
