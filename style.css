@@ -34,7 +34,7 @@ body {
     padding-top: 20px;
   }
 }
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .top-navigation {
     text-align: center;
   }
@@ -66,4 +66,40 @@ body {
 }
 h4 {
   margin-bottom: -3px;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 50%;
+  justify-content: center;
+}
+.contact {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.sns a {
+  text-decoration: none;
+  color: black;
+}
+.sns a:hover {
+  text-decoration: none;
+}
+#mail {
+  margin-bottom: 2px;
+  font-size: 12px;
+}
+.contact-me {
+  padding-top: 20px;
+}
+@media (min-width: 992px) {
+.contact-me {
+  padding-top: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .contact {
+    text-align: center;
+  }
+}
+.fa-brands {
+  margin: 2px;
 }
