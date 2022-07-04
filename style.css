@@ -95,9 +95,12 @@ h4 {
   padding-top: 50px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .contact {
     text-align: center;
+  }
+  .contact-me {
+    padding-top: 50px;
   }
 }
 .fa-brands {
@@ -134,4 +137,61 @@ form {
 label {
   font-size: 11px;
   padding-left: 5px;
+}
+.about-me-p {
+  padding-bottom: 30px;
+  width: 50%;
+}
+.about-me {
+  margin-bottom: 150px;
+}
+@media (max-width: 767px) {
+  .about-col {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+.about-pic {
+  border-radius: 50%;
+  width: 70%;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .about-me-p {
+    padding-bottom: 10px;
+  }
+  .about-col {
+    padding-top: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .about-me-p {
+    padding-bottom: 30px;
+    width: 50%;
+  }
+  .about-col {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .about-me-p {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .about-col {
+    padding-top: 60px;
+  }
+}
+@media (min-width: 768px) {
+  .about-col {
+    padding-left: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-me-p {
+    width: 70%;
+  }
 }
