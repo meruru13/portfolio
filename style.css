@@ -13,3 +13,57 @@ body {
   text-decoration: none;
   background-color: transparent;
 }
+.top-links a {
+  text-decoration: none;
+  color: black;
+}
+.top-links a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.description a {
+  text-decoration: none;
+  color: white;
+}
+.description a:hover {
+  color: white;
+}
+@media (min-width: 992px) {
+  .top-links {
+    justify-content: end;
+    padding-top: 20px;
+  }
+}
+@media (max-width:991px) {
+  .top-navigation {
+    text-align: center;
+  }
+  .top-links {
+    justify-content: center;
+    padding-right: 16px;
+  }
+}
+.navbar {
+  margin-bottom: 100px;
+}
+.top-navigation {
+  padding-bottom: 20px;
+}
+.img-card {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.work {
+  position: relative;
+}
+.description {
+  position: absolute;
+  color: white;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+}
+h4 {
+  margin-bottom: -3px;
+}
